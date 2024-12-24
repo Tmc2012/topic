@@ -3,8 +3,7 @@ using namespace std;
 int n,c;
 int dis[100005];
 vector<int>a[100005];
-int read()
-{
+int read(){
 	int x=0,w=1;char ch=getchar();
 	for(;ch<'0'||ch>'9';ch=getchar()) if(ch=='-') w=-w;
 	for(;ch>='0'&&ch<='9';ch=getchar()) x=(x<<1)+(x<<3)+(ch^48);
